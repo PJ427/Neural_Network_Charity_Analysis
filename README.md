@@ -49,7 +49,12 @@
         to "linear", all other data from the 3rd test remained the same.  This resulted in our worse run of the model yet ending
         up with a loss of 2.764 and a 48% accuracy.
     
+### Summary:
 
-
-### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different
-model could solve this classification problem, and explain your recommendation.
+Since running the model four times, through various modifcations, didn't produce the results we needed we have to look at what we can
+do to reach our desired results.  Our best result came from adding additional neurons so we could simply try to make more adjustments
+there by increasing the neurons and maybe chaning the input and/or output activation to achieve optimal results.  We could change the
+model and use the random forest.  The random forest is a powerful model that can train on the large dataset and predict values quicker.
+It combines multiple smaller models into a more robust and accurate model and uses a number of weak learner algorithms and combine their
+output to make a final classifcation decision.  Both output and feature selection are easy to interpret, and they can easily handle
+outliers and nonlinear data.  
