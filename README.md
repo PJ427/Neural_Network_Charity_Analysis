@@ -3,7 +3,7 @@
 ### Overview of the analysis:
 
 Using machine learning and neural networks, create a binary classifier that is capabale of predicting whether
-applicants will be successfule if funded by Alphabet Soup.
+applicants will be successful if funded by Alphabet Soup.
     
     o Resources:  CSV file containing 34,000+ organizations that have received funding over the years.
 
