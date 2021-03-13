@@ -7,7 +7,7 @@ applicants will be successfule if funded by Alphabet Soup.
     
     o Resources:  CSV file containing 34,000+ organizations that have received funding over the years.
 
-### Results: Using bulleted lists and images to support your answers, address the following questions.
+### Results: 
 
 #### Data Preprocessing
 
@@ -24,9 +24,9 @@ applicants will be successfule if funded by Alphabet Soup.
 
     1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
         
-        - Our first attempt to run the neural network we used 80 and 30 neurons with two hidden netowrks.  The input
-        activation chosen was "relu" and output was "sigmoid".  The results were less then satisfactory with a loss
-        of 85% and an accuracy of 53%.
+        - Our first attempt to run the neural network we used 80 and 30 neurons with two hidden netowrks.
+        The input activation chosen was "relu" and output was "sigmoid".  The results were less then satisfactory
+        with a loss of 85% and an accuracy of 53%.
         
     2. Were you able to achieve the target model performance?
             
@@ -38,16 +38,17 @@ applicants will be successfule if funded by Alphabet Soup.
         
         - Removed additional variables.  In this case we remvoed the USE_CASE.
 
-        - Additional neurons were added.  The first attempt to optimize, we increased the neurons to 100 and 50 respectively.
-        All other data remained the same and our results returned poorly, though improved somewhat.  Our loss dropped to 64%
-        and our accuracy rose to 64%.
+        - Additional neurons were added.  The first attempt to optimize, we increased the neurons to 100 and
+        50 respectively. All other data remained the same and our results returned poorly, though improved
+        somewhat.  Our loss dropped to 64% and our accuracy rose to 64%.
             
-        - Next we added an additional hidden layer.  Since we orignally raised our neurons by 20, we set this layer at 20.  
-        Input and output activation remained the same.  This result was still poor with a 69% loss and 54% accuracy.
+        - Next we added an additional hidden layer.  Since we orignally raised our neurons by 20, we set this
+        layer at 20.  Input and output activation remained the same.  This result was still poor with a 69% 
+        loss and 54% accuracy.
             
-        - Finally, we changed the activation function of the output layer to better the optimization.  The activation output 
-        to "linear", all other data from the 3rd test remained the same.  This resulted in our worse run of the model yet ending
-        up with a loss of 2.764 and a 48% accuracy.
+        - Finally, we changed the activation function of the output layer to better the optimization. The
+        activation output to "linear", all other data from the 3rd test remained the same.  This resulted in
+        our worse run of the model yet ending up with a loss of 2.764 and a 48% accuracy.
     
 ### Summary:
 
