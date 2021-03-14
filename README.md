@@ -25,8 +25,10 @@ applicants will be successful if funded by Alphabet Soup.
     1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
         
         - Our first attempt to run the neural network we used 80 and 30 neurons with two hidden netowrks.
-        The input activation chosen was "relu" and output was "sigmoid".  The results were less then satisfactory
-        with a loss of 85% and an accuracy of 53%.
+        The input activation chosen was "relu" and output was "sigmoid".  The results were less then
+        satisfactory with a loss of 85% and an accuracy of 53%.
+        
+    <p align="center"><img src="https://github.com/PJ427/Neural_Network_Charity_Analysis/blob/main/Images/ASC.PNG"></p>    
         
     2. Were you able to achieve the target model performance?
             
@@ -41,14 +43,20 @@ applicants will be successful if funded by Alphabet Soup.
         - Additional neurons were added.  The first attempt to optimize, we increased the neurons to 100 and
         50 respectively. All other data remained the same and our results returned poorly, though improved
         somewhat.  Our loss dropped to 64% and our accuracy rose to 64%.
+        
+        <p align="center"><img src="https://github.com/PJ427/Neural_Network_Charity_Analysis/blob/main/Images/ASC_1.PNG"></p>
             
         - Next we added an additional hidden layer.  Since we orignally raised our neurons by 20, we set this
         layer at 20.  Input and output activation remained the same.  This result was still poor with a 69% 
         loss and 54% accuracy.
-            
+        
+        <p align="center"><img src="https://github.com/PJ427/Neural_Network_Charity_Analysis/blob/main/Images/ASC_2.PNG"></p>
+        
         - Finally, we changed the activation function of the output layer to better the optimization. The
         activation output to "linear", all other data from the 3rd test remained the same.  This resulted in
         our worse run of the model yet ending up with a loss of 2.764 and a 48% accuracy.
+        
+        <p align="center"><img src="https://github.com/PJ427/Neural_Network_Charity_Analysis/blob/main/Images/ASC_Final.PNG"></p>
     
 ### Summary:
 
